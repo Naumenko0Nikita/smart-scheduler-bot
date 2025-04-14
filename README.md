@@ -49,6 +49,7 @@ python manage.py reset
 The bot uses the config.py file for its configuration. Here you can set various parameters like the target Telegram chat ID, the schedule of messages, and the reset time for sent messages.
 
 ## Project Structure
+```bash
 .
 ├── manage.py                 # Main entry point for managing the bot
 ├── watcher.py                # Watches and sends messages according to the schedule
