@@ -22,7 +22,7 @@ This project is a smart scheduler bot designed to send scheduled messages on Tel
 
 3. Configure your bot by editing the config.py file (you can leave the Telegram token part for now and add it later).
 
-##Running the Bot
+## Running the Bot
 To run the bot in development mode with automatic file monitoring, use the following setup:
 
 1. Using watchdog to monitor changes: You can use watchdog to automatically restart the bot when code changes are made during development.
