@@ -18,8 +18,8 @@ This project is a smart scheduler bot designed to send scheduled messages on Tel
    git clone https://github.com/Naumenko0Nikita/smart-scheduler-bot.git
    cd smart-scheduler-bot
 
-2. ```bash pip install 
-   -r requirements.txt
+2. ```bash
+   pip install -r requirements.txt
 
 4. Configure your bot by editing the config.py file (you can leave the Telegram token part for now and add it later).
 
@@ -29,9 +29,9 @@ To run the bot in development mode with automatic file monitoring, use the follo
 1. Using watchdog to monitor changes: You can use watchdog to automatically restart the bot when code changes are made during development.
 
 First, make sure you have watchdog installed: 
-2. ```bash 
-    pip install watchdog
-
+```bash
+   pip install watchdog
+```
 2. Running the bot: Run the bot with a watchdog file monitoring changes (dev mode):
 python watcher.py
 The bot will restart automatically every time a .py file is modified.
