@@ -49,14 +49,19 @@ python manage.py reset
 The bot uses the config.py file for its configuration. Here you can set various parameters like the target Telegram chat ID, the schedule of messages, and the reset time for sent messages.
 
 ## Project Structure
-manage.py: Main entry point for managing schedules.
+.
+├── manage.py                 # Main entry point for managing the bot
+├── watcher.py                # Watches and sends messages according to the schedule
+├── tools/
+│   └── reset.py              # Script to reset the bot's daily limits
+├── modules/
+│   ├── auth.py               # Auth-related functionality
+│   ├── config.py             # Configuration file (bot settings, schedules)
+│   ├── get_chat_id.py        # Utility for retrieving the chat ID
+│   ├── logger.py             # Logging setup
+│   ├── messenger.py          # Functions for sending messages
+│   └── scheduler.py          # Message scheduling functionality
+├── requirements.txt          # List of dependencies
+├── state.json                # State file to save sent messages and count
+└── README.md                 # This file
 
-modules/: Contains all the main bot logic such as message sending, logging, and scheduling.
-
-tools/: Contains utility scripts for managing schedules and resetting the bot.
-
-watcher.py: Monitors code changes and restarts the bot automatically in development mode.
-
-config.py: Configuration file for the bot.
-
-state.json: File to store the state between bot restarts.
