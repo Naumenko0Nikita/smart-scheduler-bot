@@ -18,9 +18,9 @@ This project is a smart scheduler bot designed to send scheduled messages on Tel
    git clone https://github.com/Naumenko0Nikita/smart-scheduler-bot.git
    cd smart-scheduler-bot
 
-2. pip install -r requirements.txt
+2. ```bash pip install -r requirements.txt
 
-3. Configure your bot by editing the config.py file (you can leave the Telegram token part for now and add it later).
+4. Configure your bot by editing the config.py file (you can leave the Telegram token part for now and add it later).
 
 ## Running the Bot
 To run the bot in development mode with automatic file monitoring, use the following setup:
