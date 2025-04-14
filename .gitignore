@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Packaging
+*.egg-info/
+
+# Logs
+*.log
+logs.txt
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Configs / Secrets
+config.json
+settings.json
+state.json
+secrets.json
+
+# Databases
+*.sqlite3
+*.db
+
+# Editors
+.vscode/
+.idea/
+
+# Godot
+.import/
+.export/
+*.import
+*.godot/tmp/
+*.godot/backup/
+export.cfg
+export_presets.cfg
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build / dist / temp
+build/
+dist/
+*.bak
+*.tmp
+
+# Telethon session files
+my_session.session
+my_session.session-journal
